@@ -29,4 +29,25 @@
 
 - if you then run **docker images** it'll show you that it has been created
 
-- **docker run <image name/id>** will run the image
+- **docker run <image name/id>** will run the image. this can create a container from an image. use **docker ps -a** this will show you that it is a container
+
+https://github.com/wsargent/docker-cheat-sheet
+
+# Installing Kubernetes 
+
+
+
+
+
+
+## Deploying docker to AWS
+
+- you have to use ECS which is a service for elastic containers used for orchestration.
+
+1. make sure you have AWS CLI Installed if not :
+**pip3 install awscli**
+
+2. make sure **aws configure** is configured using the correct keys
+  - (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+
+3.
